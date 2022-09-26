@@ -1,0 +1,47 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-react-dropdowns": "^5.0.1",
+    "@types/jwt-decode": "^3.1.0",
+    "@types/react": "^17.0.36",
+    "axios": "^0.24.0",
+    "classnames": "^2.2.6",
+    "jwt-decode": "^2.2.0",
+    "material-table": "^1.9.0",
+    "mern-auth": "file:..",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-calendar": "^3.5.0",
+    "react-dom": "^16.6.3",
+    "react-icons": "^4.3.1",
+    "react-plaid-link": "^3.2.1",
+    "react-plaid-link-button": "0.0.4",
+    "react-pro-sidebar": "^0.7.1",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "proxy": "http://localhost:5000/",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
