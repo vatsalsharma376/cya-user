@@ -4,11 +4,9 @@ const Schema = mongoose.Schema;
 const CompanySchema = new Schema({
   name: {
     type: String,
-    required: true,
   },
   ein: {
     type: String,
-    required: true,
   },
   states: {
     type: Array,
